@@ -15,10 +15,10 @@ Licença: GPL3
 .textUppercase  { text-decoration:uppercase }
 .hidden	   	    { overflow:hidden}
 .debug          { border:1px solid red }
-.invisible 		{ display:none }
+.invisible 		  { display:none }
 .tileX          { background-repeat:repeat-x }
 .tileY          { background-repeat:repeat-y }
-.borderRadius	{ border-radius: 4px }
+.borderRadius	  { border-radius: 4px }
 .fx-shadow	    { box-shadow: #333 2px 2px 5px }
 .fx-innerShadow { box-shadow: #333 2px 2px 5px inset}
 .fx-textShadow	{ text-shadow: 1px 0 2px #000 }

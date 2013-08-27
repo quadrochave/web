@@ -1,6 +1,12 @@
-/* Classes gerais para fins de reutilização no documento HTML 
+/* *********************************************************
+Classes gerais para fins de reutilização no documento HTML 
 Licença: GPL3
-*/
+************************************************************
+General classes for reuse in HTML
+Licensed under GPLv3
+
+2013 - Quadro-Chave Produções
+***************************************************************/
 
 .floatLeft      { float:left }
 .floatRight     { float:right }

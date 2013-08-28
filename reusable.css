@@ -35,7 +35,7 @@ Licensed under GPLv3
 .fx-textShadow	{ text-shadow: 1px 0 2px #000 }
 .fx-glow        { box-shadow: 0 0 4px 2px #ddd }
 
-/*  Banners  * /
+/*  Banners */
 .webBanner { position:relative; overflow:hidden }
 .webBanner.Leaderboard {width:728px; height:90px }
 .webBanner.Full {width:468px; height:60px }

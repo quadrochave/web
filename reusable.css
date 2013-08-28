@@ -8,6 +8,7 @@ Licensed under GPLv3
 2013 - Quadro-Chave Produções
 ***************************************************************/
 
+/* aligments */
 .floatLeft      { float:left }
 .floatRight     { float:right }
 .alignLeft      { float:left; margin: 0 15px 0 0 }
@@ -19,14 +20,23 @@ Licensed under GPLv3
 .textCenter     { text-align:center }
 .textJustify    { text-align:justify }
 .textUppercase  { text-decoration:uppercase }
+
+/* apperence */
 .hidden	   	    { overflow:hidden}
 .debug          { border:1px solid red }
 .invisible 		  { display:none }
 .tileX          { background-repeat:repeat-x }
 .tileY          { background-repeat:repeat-y }
 .borderRadius	  { border-radius: 4px }
+
+/*  Effecs   */
 .fx-shadow	    { box-shadow: #333 2px 2px 5px }
 .fx-innerShadow { box-shadow: #333 2px 2px 5px inset}
 .fx-textShadow	{ text-shadow: 1px 0 2px #000 }
 .fx-glow        { box-shadow: 0 0 4px 2px #ddd }
+
+/*  Banners  * /
+.webBanner { position:relative; overflow:hidden }
+.webBanner.Leaderboard {width:728px; height:90px }
+.webBanner.Full {width:468px; height:60px }
 

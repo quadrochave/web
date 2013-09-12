@@ -35,8 +35,44 @@ Licensed under GPLv3
 .fx-textShadow	{ text-shadow: 1px 0 2px #000 }
 .fx-glow        { box-shadow: 0 0 4px 2px #ddd }
 
+/* Animations keyframes*/
+@-keyframes fade{
+    from {opacity: 0;}
+    to 	{opacity: 1;}
+}
+
+@keyframes grow{
+    from {height: 0px;}
+    to 	 {height: 0px;}/* set the height value*/
+}
+
+/* Animations settings */
+.grow { animation: grow 0.5s normal ease-in }
+.fadeIn { animation: fade 1s normal }
+
+
+/* Modal popup and lightbox effect*/
+
+.modalMask {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.modalMask .alertBox, .modal .imgBox {}
+
 /*  Banners */
 .webBanner { position:relative; overflow:hidden }
 .webBanner.Leaderboard {width:728px; height:90px }
 .webBanner.Full {width:468px; height:60px }
+
+/* Size ajustment */
+.resposive, .resposnsive img {height: auto} 
+
+
 

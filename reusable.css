@@ -21,7 +21,7 @@ Licensed under GPLv3
 .textJustify    { text-align:justify }
 .textUppercase  { text-decoration:uppercase }
 
-/* apperence */
+/* appearance*/
 .hidden	   	    { overflow:hidden}
 .debug          { border:1px solid red }
 .invisible 		  { display:none }

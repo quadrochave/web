@@ -34,6 +34,10 @@ Licensed under GPLv3
 .fx-innerShadow { box-shadow: #333 2px 2px 5px inset}
 .fx-textShadow	{ text-shadow: 1px 0 2px #000 }
 .fx-glow        { box-shadow: 0 0 4px 2px #ddd }
+.fx-grayScale   { filter: grayscale(100%) }
+
+/*  Elements Clips  */
+.clipCircle     { border-radius: 50%; overflow: hidden }
 
 /* Animations keyframes*/
 @-keyframes fade{

@@ -8,6 +8,24 @@ Licensed under GPLv3
 2013 - Quadro-Chave Produções
 ***************************************************************/
 
+/* resets */
+
+* {
+	margin: 0;
+	padding: 0;    
+}
+
+a {	outline: 0 }
+
+a img, :link img, :visited img, fieldset { border:none }
+
+:link, :visited { text-decoration:none }
+
+ul,ol { list-style:none }
+
+label, button {  cursor: pointer }
+
+
 /* aligments */
 .floatLeft      { float:left }
 .floatRight     { float:right }
@@ -38,6 +56,14 @@ Licensed under GPLv3
 
 /*  Elements Clips  */
 .clipCircle     { border-radius: 50%; overflow: hidden }
+
+/* General elements */
+
+.btn {  
+    cursor: pointer; 
+    display:block;
+}
+
 
 /* Animations keyframes*/
 @-keyframes fade{

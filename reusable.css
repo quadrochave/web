@@ -15,13 +15,13 @@ Licensed under GPLv3
 	padding: 0;    
 }
 
-a {	outline: 0 }
+a { outline: 0 }
 
 a img, :link img, :visited img, fieldset { border:none }
 
 :link, :visited { text-decoration:none }
 
-ul,ol { list-style:none }
+ul,ol, li { list-style:none }
 
 label, button {  cursor: pointer }
 
@@ -29,8 +29,8 @@ label, button {  cursor: pointer }
 /* aligments */
 .floatLeft      { float:left }
 .floatRight     { float:right }
-.alignLeft      { float:left; margin: 0 15px 0 0 }
-.alignRight     { float:right; margin: 0 0 0 15px }
+.alignLeft      { float:left; margin: 0 20px 0 0 }
+.alignRight     { float:right; margin: 0 0 0 20px }
 .clear          { clear:both }
 .center         { margin: 0 auto }
 .margins        { margin: 10px }
@@ -48,11 +48,10 @@ label, button {  cursor: pointer }
 .borderRadius	  { border-radius: 4px }
 
 /*  Effecs   */
-.fx-shadow	    { box-shadow: #333 2px 2px 5px }
+.fx-shadow	{ box-shadow: #333 2px 2px 5px }
 .fx-innerShadow { box-shadow: #333 2px 2px 5px inset}
 .fx-textShadow	{ text-shadow: 1px 0 2px #000 }
 .fx-glow        { box-shadow: 0 0 4px 2px #ddd }
-.fx-grayScale   { filter: grayscale(100%) }
 
 /*  Elements Clips  */
 .clipCircle     { border-radius: 50%; overflow: hidden }

@@ -25,6 +25,8 @@ ul,ol, li { list-style:none }
 
 label, button {  cursor: pointer }
 
+input[type="button"] { border: 0 none; cursor: pointer display: block; }
+
 
 /* aligments */
 .floatLeft      { float:left }
@@ -34,10 +36,7 @@ label, button {  cursor: pointer }
 .clear          { clear:both }
 .center         { margin: 0 auto }
 .margins        { margin: 10px }
-.textRight      { text-align:right }
-.textCenter     { text-align:center }
-.textJustify    { text-align:justify }
-.textUppercase  { text-decoration:uppercase }
+
 
 /* appearance*/
 .hidden	   	    { overflow:hidden}

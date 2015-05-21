@@ -92,6 +92,30 @@ input[type="button"] { border: 0 none; cursor: pointer display: block; }
     z-index: 999;
 }
 
+.modalMask > .content {
+    background: none repeat scroll 0 0 #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+    width: 70%;
+}
+
+.target {
+  display: block;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  pointer-events: none;
+ }
+ 
+ 
+
 .modalMask .alertBox, .modal .imgBox {}
 
 /*  Banners */

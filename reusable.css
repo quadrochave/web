@@ -74,9 +74,15 @@ input[type="button"] { border: 0 none; cursor: pointer display: block; }
     to 	 {height: 0px;}/* set the height value*/
 }
 
+@-webkit-keyframes rotation {
+   from {transform: rotate(0deg) }
+   to { transform: rotate(359deg) }
+}
+
 /* Animations settings */
 .grow { animation: grow 0.5s normal ease-in }
 .fadeIn { animation: fade 1s normal }
+.rot360 { animation: rotation 2s infinite linear }
 
 
 /* Modal popup and lightbox effect*/

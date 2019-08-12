@@ -62,8 +62,8 @@ input[type="button"] { border: 0 none; cursor: pointer display: block; }
     display:block;
 }
 
-/* Background full screen */
-bgFull { 
+/* Background full screen for css background*/
+.cssBgFull { 
   background-repeat: no-repeat;
   backgound-position: center center fixed; 
   background-attachment: fixed;
@@ -71,6 +71,25 @@ bgFull {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+/* Background full screen for <img> and <video> tags*/
+.htmlBgContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.htmlBgFull {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 

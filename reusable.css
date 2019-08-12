@@ -62,6 +62,17 @@ input[type="button"] { border: 0 none; cursor: pointer display: block; }
     display:block;
 }
 
+/* Background full screen */
+bgFull { 
+  background-repeat: no-repeat;
+  backgound-position: center center fixed; 
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 /* Animations keyframes*/
 @-keyframes fade{
@@ -131,6 +142,8 @@ input[type="button"] { border: 0 none; cursor: pointer display: block; }
 
 /* Size ajustment */
 .resposive, .resposnsive img {height: auto} 
+
+
 
 
 

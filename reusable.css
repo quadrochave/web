@@ -39,7 +39,7 @@ input[type="button"] { border: 0 none; cursor: pointer display: block; }
 
 
 /* appearance*/
-.hidden	   	    { overflow:hidden}
+.hidden	   	    { margin: 0; overflow:hidden}
 .debug          { border:1px solid red }
 .invisible 		  { display:none }
 .tileX          { background-repeat:repeat-x }
@@ -73,23 +73,14 @@ input[type="button"] { border: 0 none; cursor: pointer display: block; }
   background-size: cover;
 }
 
-/* Background full screen for <img> and <video> tags*/
-.htmlBgContainer {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-}
-
-.htmlBgFull {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+/* Background full screen for <img> and <video> tags. Place inside tag with hidden class. Eg: body class="hidden"*/
+.BgFull{
+    min-height:100%;
+    min-width:100%;
+    height:auto;
+    width:auto;
+    position:absolute;
+    margin:auto;
 }
 
 

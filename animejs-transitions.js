@@ -20,7 +20,6 @@ function bounceInDown(element) {
     ],
     duration: 1,
     easing: 'easeOutCubic',
-    loop: true
   });
 
 }
@@ -38,7 +37,6 @@ function bounceInUp(element) {
     ],
     duration: 1,
     easing: 'easeOutCubic',
-    loop: true
   });
 
 }
@@ -56,7 +54,6 @@ function bounceInRight(element) {
     ],
     duration: 1,
     easing: 'easeOutCubic',
-    loop: true
   });
 
 }
@@ -74,7 +71,6 @@ function bounceInLeft(element) {
     ],
     duration: 1,
     easing: 'easeOutCubic',
-    loop: true
   });
 
 }
